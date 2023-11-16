@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationMenu from "../navigation/navigation_menu";
 import Skill from "../skills/skillset";
-
+import './homepage_style.css';
 function HomePage() {
     return (
         <div>

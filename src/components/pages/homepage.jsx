@@ -2,6 +2,7 @@ import React from 'react';
 import NavigationMenu from "../navigation/navigation_menu";
 import Skill from "../skills/skillset";
 import './homepage_style.css';
+import Carousel from "../carousel/carousel";
 function HomePage() {
     return (
         <div>
@@ -20,6 +21,7 @@ function HomePage() {
                 {<p>Sekce3</p>}
             </section>
             <NavigationMenu/>
+            {<Carousel/>}
         </div>
     );
 }

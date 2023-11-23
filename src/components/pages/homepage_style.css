@@ -2,6 +2,9 @@
     color: #00bde2;
     border: #00bcd4 1px solid;
 }
+#section1 a:hover{
+    color: #ffaed9;
+}
 #section2{
     color: #00bde2;
 }

@@ -6,9 +6,12 @@
 }
 
 .carousel-slide {
-    width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+.carousel-img{
+    scale: 40%;
 }
 
 .slide-enter {

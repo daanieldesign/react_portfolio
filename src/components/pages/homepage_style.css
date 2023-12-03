@@ -1,13 +1,16 @@
 #section1{
-    color: #00bde2;
-    border: #00bcd4 1px solid;
+    color: #cc9b9b;
+    border: #cc9b9b 1px solid;
+    background-color: #213dcc;
 }
 #section1 a:hover{
-    color: #ffaed9;
+    color: #213dcc;
 }
 #section2{
-    color: #00bde2;
+    color: #cc9b9b;
+    background-color: blueviolet;
 }
 #section3{
-    color: #00bde2;
+    color: #cc9b9b;
+    background-color: #3f1f60;
 }

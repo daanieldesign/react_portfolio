@@ -19,11 +19,11 @@ function Carousel() {
     };
 
     return (
-        <div classname="carousel">
+        <div class="carousel">
             <button onclick="{prevSlide}">Předchozí</button>
-            <transitiongroup classname="carousel-slide">
-                <csstransition key="{index}" timeout="{500}" classnames="slide">
-                    <img src={images[index]} alt={`Slide ${index + 1}   `} />
+            <transitiongroup class="carousel-slide">
+                <csstransition key="{index}" timeout="{500}" class="slide">
+                    <img class="carousel-img" src={images[index]} alt={`Slide ${index + 1}   `} />
                 </csstransition>
             </transitiongroup>
             <button onclick="{nextSlide}">Další</button>

@@ -3,6 +3,7 @@ import NavigationMenu from "../navigation/navigation_menu";
 import Skill from "../skills/skillset";
 import './homepage_style.css';
 import Carousel from "../carousel/carousel";
+import ButtonBootStrap from "../Button/buttons";
 function HomePage() {
     return (
         <div>
@@ -22,6 +23,9 @@ function HomePage() {
             </section>
             <NavigationMenu/>
             {<Carousel/>}
+            <div>
+            <ButtonBootStrap/>
+        </div>
         </div>
     );
 }

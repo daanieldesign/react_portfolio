@@ -5,13 +5,17 @@
     position: relative;
 }
 
+.carousel button{
+    position: fixed;
+}
+
 .carousel-slide {
     overflow: hidden;
     position: relative;
 }
 
 .carousel-img{
-    scale: 40%;
+    max-height: 560px;
 }
 
 .slide-enter {

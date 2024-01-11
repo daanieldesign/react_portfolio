@@ -1,12 +1,11 @@
 .carousel {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 .carousel button{
-    position: fixed;
+    max-height: 40px;
+    margin: auto;
 }
 
 .carousel-slide {

@@ -5,6 +5,7 @@ import './homepage_style.css';
 import Carousel from "../carousel/carousel";
 import ButtonBootStrap from "../Button/buttons";
 import Header from "../Header/header";
+import FooterComponent from "../Footer/footer";
 
 function HomePage() {
     return (
@@ -23,9 +24,7 @@ function HomePage() {
             </section>
             <NavigationMenu/>
             {<Carousel/>}
-            <div className="button-container">
-                <ButtonBootStrap/>
-            </div>
+            <FooterComponent/>
         </div>
     );
 }
